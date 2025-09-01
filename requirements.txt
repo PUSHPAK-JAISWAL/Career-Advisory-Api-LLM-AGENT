@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+motor
+pydantic
+requests
+beautifulsoup4
+googlesearch-python
+sentence-transformers
+chromadb
+numpy
