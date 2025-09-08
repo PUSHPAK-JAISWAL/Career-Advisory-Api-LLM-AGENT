@@ -626,7 +626,6 @@ def build_prompt(system_instructions: str, user_memory_text: str, retrieved_docs
     parts.append(f"\nUSER: {user_message}\n")
 
     parts.append(
-        "\nFORMAT (IMPORTANT): Answer in CLEAR Markdown. Use **bold** for highlights, bullet lists for enumerations. "
         "When referencing sources, do NOT paste long raw URLs inline. Use numbered references like [1], [2] in the body. "
         "At the END include a SOURCES section in this exact pattern (one bullet per source):\n\n"
         "SOURCES:\n"
